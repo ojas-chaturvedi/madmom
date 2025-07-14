@@ -4,17 +4,9 @@ channels:
   - nodefaults
 dependencies:
   - python
-  - cython>=0.25
-  - numpy
-  - scipy
-  - opencv
-  - portaudio
+  - ffmpeg
   - pip
   - pip:
-      - mido>=1.2.6
-      - pyfftw
-      - pyaudio
-      - pytest
-      - black
-      - pre-commit
-      - prospector
+      - setuptools
+      - pretty_midi
+      - git+https://github.com/CPJKU/madmom
